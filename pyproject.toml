@@ -1,0 +1,22 @@
+[project]
+name = "reservetimingestimation"
+version = "0.1.0"
+description = "Monitors a reservation queue via ADB + OCR and notifies when to submit to hit a target seating time"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=12.2.0",
+    "pytesseract>=0.3.13",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+    "ruff>=0.15.20",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F"]
