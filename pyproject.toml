@@ -5,7 +5,7 @@ description = "Monitors a reservation queue via ADB + OCR and notifies when to s
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "pillow>=12.2.0",
+    "pillow>=12.3.0",
     "pytesseract>=0.3.13",
 ]
 
